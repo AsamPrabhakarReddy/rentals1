@@ -10,6 +10,9 @@ import TenentScreening from "./pages/TenentScreening";
 import CreditAndBackgroundCheck from "./pages/CreditAndBackgroundCheck";
 import OnlineRentCollection from "./pages/OnlineRentCollection";
 import MaintenanceTracking from "./pages/MaintenanceTracking";
+import RentAnalysis from "./pages/RentAnalysis";
+import PropertyAccouting from "./pages/PropertyAccouting";
+import PropertyCalculator from "./pages/PropertyCalculator";
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +27,9 @@ function App() {
         <Route path="/credit-and-background-check" element={<CreditAndBackgroundCheck />}></Route>
         <Route path="/online-rent-collection" element={<OnlineRentCollection />}></Route>
         <Route path="/maintenance-tracking" element={<MaintenanceTracking />}></Route>
+        <Route path="/rent-analysis" element={<RentAnalysis />}></Route>
+        <Route path="/rental-property-accounting" element={<PropertyAccouting />}></Route>
+        <Route path="/rental-property-calculator" element={<PropertyCalculator />}></Route>
       </Routes>
     </BrowserRouter>
   );

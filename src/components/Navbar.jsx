@@ -233,7 +233,7 @@ const NavBar = () => {
                     </li>
                     <li className="text-gray-700">
                       <a
-                        href="/"
+                        href="/rent-analysis"
                         className="text-sm"
                       >
                         Rent Price Analysis
@@ -241,10 +241,18 @@ const NavBar = () => {
                     </li>
                     <li className="text-gray-700">
                       <a
-                        href="/"
+                        href="/rental-property-accounting"
                         className="text-sm"
                       >
                         Property Accounting
+                      </a>
+                    </li>
+                    <li className="text-gray-700">
+                      <a
+                        href="/rental-property-calculator"
+                        className="text-sm"
+                      >
+                        Rental Property Calculator
                       </a>
                     </li>
                   </motion.ul>
@@ -770,7 +778,7 @@ const Homebar = () => {
         </span>
       </a>
       <a
-        href="/learn-about-us#about_founder"
+        href="/rent-analysis"
         className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
       >
         <MdOutlineWorkHistory className="mb-2 text-xl text-mainColor" />
@@ -780,7 +788,7 @@ const Homebar = () => {
       </a>
 
       <a
-        href="/learn-about-us#about_founder"
+        href="/rental-property-calculator"
         className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
       >
         <FaCalculator className="mb-2 text-xl text-mainColor" />
@@ -790,7 +798,7 @@ const Homebar = () => {
       </a>
 
       <a
-        href="/learn-about-us#about_founder"
+        href="/rental-property-accounting"
         className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
       >
         <MdAccountBalanceWallet className="mb-2 text-xl text-mainColor" />
