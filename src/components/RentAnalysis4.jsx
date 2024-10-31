@@ -3,7 +3,7 @@ import RT41 from "../assets/RT41.webp"
 import RT42 from "../assets/RT42.avif"
 const RentAnalysis4 = () => {
   return (
-    <div className='w-full h-screen h-[1200px] lg:mt-[30px] mt-[100px] bg-gray-200'>
+    <div className='w-full lg:h-[900px] h-[1350px] lg:mt-[30px] mt-[100px] bg-gray-200'>
     <div className="max-w-[1200px] lg:mx-auto  mx-[10px] h-screen grid lg:grid-cols-2 pb-10">
         <div className=" p-8 flex flex-col justify-center ">
             <h1 className="lg:text-[50px] text-[35px] font-bold text-start font-semibold leading-tight text-blue-900">
